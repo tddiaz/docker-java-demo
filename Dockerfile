@@ -1,6 +1,4 @@
-FROM centos
-
-RUN yum install -y java
+FROM openjdk:alpine
 
 VOLUME /tmp
 ADD target/docker-java-demo-0.0.1-SNAPSHOT.jar myapp.jar
