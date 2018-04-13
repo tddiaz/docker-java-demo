@@ -67,6 +67,11 @@
 									<tag>${project.version}</tag>
 								</tags>
 							</build>
+							<run>
+								<ports>
+									<port>9090:8080</port>
+								</ports>
+							</run>
 						</image>
 					</images>
 				</configuration>
